@@ -4,6 +4,16 @@
 
 echo    "Ubuntu 22.04 Post-Installation Fast Deployment Tool"
 
+echo    "installing essential dependencies - if not already preinstalled..."
+sudo apt install dialog curl wget
+sudo apt install --fix-missing
+sudo apt update
+sudo apt dist-upgrade
+sudo apt autoremove
+sudo apt autoclean
+echo    "done!"
+echo    "Loading the selection menu..."
+
 cmd=(dialog --separate-output --checklist "Select which apps should be installed:" 22 76 16)
 options=(1 "uninstall bloatware" on
          2 "uninstall insecure packages" on
