@@ -2,7 +2,7 @@
 #	Keeping it portable.
 #	see:	https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html
 
-echo "Ubuntu 22.04 Post-Installation Fast Deployment Tool"
+echo    "Ubuntu 22.04 Post-Installation Fast Deployment Tool"
 
 cmd=(dialog --separate-output --checklist "Select which apps should be installed:" 22 76 16)
 options=(1 "uninstall bloatware" on
@@ -38,7 +38,16 @@ do
     esac
 done
 
-echo "Thanks for using the Ubuntu 22.04 Post-Installation Fast Deployment Tool!"
+echo    "Thanks for using the Ubuntu 22.04 Post-Installation Fast Deployment Tool!"
+echo    ""
+echo    "Do you wish to reboot the system?"
+#   reboot question
 
-exit
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) echo "rebooting..."; break;;
+		No ) echo "bye..."; exit;;
+    esac
+done
 
+sudo reboot && exit
