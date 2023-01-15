@@ -1,0 +1,13 @@
+NAME	WEBSITE	TYPE	License	DESCRIPTION	NOTES
+Chrome	https://www.google.de/intl/en/chrome/	Web Browser	CCSS	Common Web Browser	Proprietary and not rivacy-friendly
+Codium	https://vscodium.com/	IDE	MIT	FLOSS-only fork of Visual Studio Code	Removes Microsoft-binaries and bloat
+Dayon	https://retgal.github.io/Dayon/	Remote Desktop Support	GPLv3	Open-Source and easy to use Remote Desktop Solution	Basically reverse-VNC - Server
+Enpass	https://www.enpass.io/	Password Manager	CCSS	Runs on all relevant Platforms	Very useful and well-integrated into all modern browsers
+Etcher	https://www.balena.io/etcher/	Image Writing Tool	CCSS	Extremely easy to use	Aims at novice users
+fish	https://fishshell.com/	Shell	GPLv2	Efficient and modern Shell	Friendly Interactive Shell
+PyCharm	https://www.jetbrains.com/pycharm/	IDE	CCSS	IntelliJ IDEA but for Python	Community Edition only supported as of now
+Steam	https://store.steampowered.com/about/	Game Launcher	CCSS	Native Linux Launcher	Proprietary
+VeraCrypt	https://veracrypt.fr/en/Home.html	Utility	Multi-Licensed FOSS	Multi-Platform Disk Encryption Utility	Successor to TrueCrypt
+VirtualBox	https://www.virtualbox.org	Virtualization Software	GPLv2	Easy-to-use tool for local Virtualization	Extension Pack is proprietary CCSS!
+zsh	https://www.zsh.org/	Shell	MIT	Efficient Shell	Incorporates many features of tcsh, bash & ksh
+Zulip	https://zulip.com/	Chat	Apache 2.0	Organization Chat	Superior Alternative to Teams, Mattermost & Slack

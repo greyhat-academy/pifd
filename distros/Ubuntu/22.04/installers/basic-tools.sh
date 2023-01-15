@@ -11,7 +11,7 @@ sudo apt autoremove
 sudo apt autoclean
 
 #   installing basic packages
-sudo apt install bzip2 tar lzma 7zip p7zip p7zip-full p7zip-rar pax btop git screenfetch neofetch screen tmux
+sudo apt install remmina linphone quassel libreoffice firefox thunderbird enigmail pidgin pidgin-otr pidgin-privacy-please pidgin-awayonlock pidgin-themes pidgin-pack pidgin-extprefs pidgin-hotkeys pidgin-festival indicator-multiload menulibre gnome-tweaks
 
 #   postinstall-cleanup
 sudo apt update
