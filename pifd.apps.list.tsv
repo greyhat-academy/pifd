@@ -6,6 +6,7 @@ Enpass	https://www.enpass.io/	Password Manager	CCSS	Runs on all relevant Platfor
 Etcher	https://www.balena.io/etcher/	Image Writing Tool	CCSS	Extremely easy to use	Aims at novice users
 fish	https://fishshell.com/	Shell	GPLv2	Efficient and modern Shell	Friendly Interactive Shell
 PyCharm	https://www.jetbrains.com/pycharm/	IDE	CCSS	IntelliJ IDEA but for Python	Community Edition only supported as of now
+RetroPie	https://retropie.org.uk/download/#Debian_Ubuntu_on_a_PC	Retro Gaming Launcher & emulators	multiple licenss	Installs several emulators	Very easy to use
 Steam	https://store.steampowered.com/about/	Game Launcher	CCSS	Native Linux Launcher	Proprietary
 VeraCrypt	https://veracrypt.fr/en/Home.html	Utility	Multi-Licensed FOSS	Multi-Platform Disk Encryption Utility	Successor to TrueCrypt
 VirtualBox	https://www.virtualbox.org	Virtualization Software	GPLv2	Easy-to-use tool for local Virtualization	Extension Pack is proprietary CCSS!
