@@ -37,16 +37,19 @@ echo    "$VER"
 FILE=./$OS/$VER/distro.is.supported.check
 if [ -f "$FILE" ]; then
     echo    "Distribution $OS $VER is supported."
+    #   Switching to directory for distro-specific scripts and starting the script from there.
+    cd ./$OS/$VER/
+    ./pifd.sh
+    echo    "setup completed!"
+    exit
 else
     echo    "$OS $VER is unsupported!"
     echo    "Please report this back as issue at: https://github.com/greyhat-academy/pifd/issues"
     echo    "You're also happily invited to add support yourself and contribute it as a pull request: https://github.com/greyhat-academy/pifd/pulls"
     echo    "To prevent damages to your installation, this script will now terminate."
+    echo    ""
+    echo    "if detection failed and/or you want to explicitly run said scripts manually for a distro, please open the relevant folder in ./distros/. "
+    echo    "i.e. ./distros/Ubuntu/22.04/ and run ./pifd.sh inside it"
     exit
 fi
-
-#   Switching to directory for distro-specific scripts and starting the script from there.
-cd ./$OS/$VER/
-./pifd.sh
-
 exit
