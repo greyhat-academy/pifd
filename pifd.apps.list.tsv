@@ -10,5 +10,6 @@ RetroPie	https://retropie.org.uk/download/#Debian_Ubuntu_on_a_PC	Retro Gaming La
 Steam	https://store.steampowered.com/about/	Game Launcher	CCSS	Native Linux Launcher	Proprietary
 VeraCrypt	https://veracrypt.fr/en/Home.html	Utility	Multi-Licensed FOSS	Multi-Platform Disk Encryption Utility	Successor to TrueCrypt
 VirtualBox	https://www.virtualbox.org	Virtualization Software	GPLv2	Easy-to-use tool for local Virtualization	Extension Pack is proprietary CCSS!
+youtube-dl	https://youtube-dl.org/	Downloader	Unlicense	Downloads and converts youtube videos	installed and updated via pip!
 zsh	https://www.zsh.org/	Shell	MIT	Efficient Shell	Incorporates many features of tcsh, bash & ksh
 Zulip	https://zulip.com/	Chat	Apache 2.0	Organization Chat	Superior Alternative to Teams, Mattermost & Slack
