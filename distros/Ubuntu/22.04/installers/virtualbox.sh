@@ -13,6 +13,7 @@ wget https://download.virtualbox.org/virtualbox/7.0.4/Oracle_VM_VirtualBox_Exten
 cp ./Oracle_VM_VirtualBox_Extension_Pack-7.0.4.vbox-extpack $HOME/Downloads/
 # copying the extension pack to /Downloads so that the user can easily add it.
 sudo dpkg -i ./virtualbox-7.0_7.0.4-154605~Ubuntu~jammy_amd64.deb
+sudo apt install --fix-missing
 sudo apt update
 sudo apt dist-upgrade
 sudo apt autoremove

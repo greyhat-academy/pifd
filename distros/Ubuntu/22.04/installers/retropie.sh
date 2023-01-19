@@ -8,6 +8,7 @@ echo    "installing essential dependencies..."
 sudo apt update
 sudo apt upgrade
 sudo apt install -y git dialog unzip xmlstarlet
+echo    "downloading RetroPie installer and running it..."
 cd ./dl-cache/
 git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 cd ./RetroPie-Setup
