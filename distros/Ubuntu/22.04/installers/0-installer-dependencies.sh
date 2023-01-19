@@ -9,9 +9,12 @@ sudo apt update
 sudo apt dist-upgrade
 sudo apt autoremove
 sudo apt autoclean
+echo    "done!"
+
 # creating download cache folder
+echo    "creating Download cache folder"
 mkdir ./dl-cache/
-echo  "download cache created"
+echo  "...download cache created"
 sudo touch ./.dependencies-installed
 echo  "marking dependencies as installed"
 echo    "done!"
